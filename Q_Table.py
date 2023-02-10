@@ -3,7 +3,7 @@ from Episode_Generator import Episode_Generator
 
 N = 10
 M = 10
-ALPHA = 1
+ALPHA = 0.5
 GAMA = 0.5
 
 
