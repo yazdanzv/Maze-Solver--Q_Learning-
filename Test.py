@@ -1,10 +1,11 @@
 from Dic_Map_Builder import Dic_Builder
 from Episode_Generator import Episode_Generator
 from Q_Table import Q_Table
+from GUI import GUI
 
 MAP = [['A', 'B', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W'], ['W', 'W', 'W', 'F', 'W', 'B', 'W', 'W', 'W', 'W'],
        ['F', 'W', 'W', 'W', 'W', 'B', 'F', 'W', 'W', 'W'],
-       ['B', 'B', 'W', 'B', 'B', 'W', 'B', 'W', 'W', 'W'], ['W', 'F', 'B', 'W', 'B', 'W', 'F', 'B', 'B', 'B', 'W'],
+       ['B', 'B', 'W', 'B', 'B', 'W', 'B', 'W', 'W', 'W'], ['W', 'F', 'B', 'W', 'B', 'F', 'B', 'B', 'B', 'W'],
        ['W', 'W', 'B', 'W', 'B', 'W', 'W', 'W', 'W', 'W'],
        ['W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W', 'W'], ['W', 'F', 'W', 'W', 'W', 'W', 'B', 'B', 'B', 'B'],
        ['W', 'B', 'B', 'B', 'B', 'B', 'W', 'W', 'W', 'W'],
@@ -40,3 +41,4 @@ print(e.policy_table)
 # f = e.get_reward('10')
 # s = e.get_max_next_state('10')
 print(e.q_table)
+g = GUI(e.policy_table)
