@@ -5,3 +5,4 @@
 * you can see the results with a GUI that is designed into the program
 * you can set the GAMA and ALPHA value in the code and set the maximum lenght that each generated episode can get and the number of the episodes that algorithm should generate to train the agent
 <h3>you can see one of the results down here:</h3>
+![Picture](https://github.com/yazdanzv/Maze-Solver--Q_Learning-/blob/main/1.png?raw=true)
